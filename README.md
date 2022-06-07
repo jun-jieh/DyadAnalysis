@@ -16,4 +16,4 @@ This repository shows the implementation of dyadic data analysis by fitting gene
 ## Software
 * All experiments are implemented in [R](https://cloud.r-project.org/) (version 4.1.2)
 
-* The model is fitted using a Bayesian approach that is implemented with rstan package in R [RStan](https://mc-stan.org/users/interfaces/rstan)
+* The model is fitted using a Bayesian approach that is implemented with [rstan](https://mc-stan.org/users/interfaces/rstan) package in R 
