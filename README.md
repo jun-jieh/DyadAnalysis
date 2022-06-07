@@ -1,5 +1,5 @@
 # DyadAnalysis
-**Analysis of dyadic data from behavioral interactions**
+***Analysis of dyadic data from behavioral interactions***
 
 __Junjie Han, Janice Siegford, Gustavo de los Campos, Robert Tempelman, Cedric Gondro, and Juan P. Steibel__
 
