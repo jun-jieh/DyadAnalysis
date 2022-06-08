@@ -25,7 +25,10 @@ This repository shows the implementation of dyadic data analysis by fitting gene
 
 * Notice that there are two R script files and two stan script files:
 
-`runBayes.R` is the high-level R script whose functionality includes: 1) preparing data, 2) calling stan model, 3) calling stan output variable, and 4) posterior predictive checking.
+`runBayes.R` is the high-level R script whose functionality includes: 1) preparing data, 2) calling stan model, 3) calling stan output variable, and 4) posterior predictive checking. This script is paired with `hurdle.stan` and we recommend copying both files into the same folder.
 
-`hurdle.stan` is the model-level stan script that allows the user to compile/modify the model fitting using the Bayesian approach. Customized quantaties/metrics are editable in this script.
+`hurdle.stan` is the model-level stan script that allows the user to compile/modify the model fitting using the Bayesian approach. Customized quantaties/metrics are editable in this script. This script is paired with `runBayes.R` and we recommend copying both files into the same folder.
 
+`ValidationStrategies.R` shows users how to implement the three external validation strategies as described in the paper. It is an extension to `runBayes.R`. 
+
+`hurdle_validation.stan` can be called by any of the three validation strategies. But the model is fitted using the training set only (see more details in `ValidationStrategies.R`).
