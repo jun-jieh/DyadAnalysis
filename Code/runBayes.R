@@ -129,3 +129,5 @@ mcmc_acf(hurdle_model,pars=c("Sigma0[1,1]",
 # Finally, obtain the posterior distribution of the estimated parameters for Bayesian inference
 # We do not recommend running this line if the simulated data sets y_reps are obtained from the generated quantaties
 round(summary(hurdle_model)$summary,3)
+
+# Sigma0 and Sigma are the giver-receiver (co)variance matrices in the hurdle model
