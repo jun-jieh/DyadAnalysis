@@ -1,7 +1,7 @@
 # DyadAnalysis
 **Analysis of dyadic data from behavioral interactions**
 
-Junjie Han, Janice Siegford, Gustavo de los Campos, Robert Tempelman, Cedric Gondro, and Juan P. Steibel
+Junjie Han, Janice Siegford, Gustavo de los Campos, Robert Tempelman, Cedric Gondro, and Juan Steibel
 
 If you find this resource helpful, please cite.
 
@@ -22,5 +22,7 @@ This repository shows the implementation of dyadic data analysis by fitting gene
 
 ## Code
 * R code and the stan script for model compilation can be found in the __Code__ folder
+
+* Notice that there are two R script files and two stan script files:
 
 
