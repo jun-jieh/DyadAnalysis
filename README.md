@@ -32,3 +32,7 @@ This repository shows the implementation of dyadic data analysis by fitting gene
 `ValidationStrategies.R` shows users how to implement the three external validation strategies as described in the paper. It is an extension to `runBayes.R`. 
 
 `hurdle_validation.stan` can be called by any of the three validation strategies. But the model is fitted using the training set only (see more details in `ValidationStrategies.R`).
+
+## Dataset
+
+To find the dataset used in this study, please visit the __Data__ folder
