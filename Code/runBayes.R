@@ -49,7 +49,7 @@ strt_time <- Sys.time()
 
 # Call the stan code generator, compile, and execute the model fitting
 hurdle_model  <-  stan(file = "hurdle.stan",data = data,
-                                      chains = 4,warmup = 20,iter = 50,thin = 10,seed=22222,
+                                      chains = 4,warmup = 5000,iter = 15000,thin = 10,seed=22222,
                                       control = list(max_treedepth = 12),
                                       pars = c("alpha",
                                                "sex_eff",
