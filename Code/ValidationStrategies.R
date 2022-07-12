@@ -33,7 +33,7 @@ receiver_id<-as.numeric(droplevels(dyad_data$receiver_id))
 
 
 
-############# 5-fold (random) cross-validation #############
+############# stratified 5-fold (random) cross-validation #############
 
 # K-fold crosss-validation. nf: the number of folds
 nf <- 5
@@ -141,7 +141,7 @@ runtime <- end_time - strt_time
 print(runtime)
 save(fold, y_rep_groupCV, models, file="GroupCV.RData")
 
-############# Block-by-focal-animal validation #############
+############# Block-by-focal-animals validation #############
 nrep = 5
 
 # select all observations from seven random animal per group.
