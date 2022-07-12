@@ -8,10 +8,10 @@ library(rstan)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 
-# load("E:/Dyadic Study/Belcy Data/dyad_data_new.RData")
-# setwd("E:/Dyadic Study/RStan Learning/HPCC/ZIP")
-load("/mnt/home/hanjunji/Dyadic Study/RStan/dyad_data_new.RData")
-setwd("/mnt/home/hanjunji/Dyadic Study/RStan3/ZIP_DD")
+# Load the data file that is also provided in this GitHub repository
+load("~/dyad_data.RData")
+# Set working path (optional)
+# setwd("~/Dyadic data analysis")
 
 # Create a dataset for the stan program
 # Response variable
