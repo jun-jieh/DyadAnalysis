@@ -48,7 +48,7 @@ strt_time <- Sys.time()
 
 # Call the stan code generator, compile, and execute the model fitting
 gaussian_model  <-  stan(file = "dyad_normal.stan",data = data,
-                       chains = 4,warmup = 1500,iter = 2500,thin = 4,seed=66666,
+                       chains = 4,warmup = 2000,iter = 8000,thin = 6,seed=66666,
                        control = list(max_treedepth = 12),
                        pars = c("alpha",
                                 "sex_eff",
