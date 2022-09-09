@@ -50,7 +50,7 @@ strt_time <- Sys.time()
 
 # Call the stan code generator, compile, and execute the model fitting
 ZIPoisson_model  <-  stan(file = "dyad_zip.stan",data = data,
-                       chains = 4,warmup = 1500,iter = 2500,thin = 4,seed=44444,
+                       chains = 4,warmup = 2000,iter = 8000,thin = 6,seed=44444,
                        control = list(max_treedepth = 12),
                        pars = c("alpha",
                                 "sex_eff",
